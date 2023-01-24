@@ -1,0 +1,38 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-content: center;	
+	width: 100vw;
+	height: 100vh ;
+	font-family: arial;
+}
+
+main{
+	width: 60%;	
+	max-height: 60%;	
+	display: inline-flex;
+	background: green;
+	justify-content: center;
+	align-self: center;
+	border-radius: 20px;
+	
+}
+
+#tarefa{
+	justify-content: center;
+	align-content: center;
+	width: 100%;		
+	padding: 20px;	
+}
+
+aside{
+	padding: 20px;
+	display: flex;
+	
+	max-width: 100%;	
+
+}
+
+select{
+	padding: 10px;
+}
