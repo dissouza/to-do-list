@@ -63,7 +63,7 @@ li{
 	border-bottom: 1px solid gray;
 }
 
-#new_task{
+.new_task{
 	margin-left: 5%;
 	align-self: left;
 	grid-auto-flow: column;
