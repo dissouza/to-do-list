@@ -16,27 +16,19 @@
 		<h1>Lista de Tarefas</h1>
 			<ul>
 				<li id="first"><!-- Primeira linha-->
-					<input type="text" class="task" name="titulo" placeholder="Digite um nome para esta tarefa">
+					<input type="text" class="task" id="task" placeholder="Digite um nome para esta tarefa">
 				</li>
 
 				<li id="second"><!-- Segunda linha-->				
-				<input type="time" id="hora"></input>				
-				<input type="date" id="data"></input>
+				<input type="time" id="hora" name="hora"></input>				
+				<input type="date" id="data" name="data"></input>
 				<button onclick="adicionar()" id="adicionar">ADICIONAR</button>
 				</li>		
 			</ul>
 	</section>
 
 	<section id="list_tasks">
-			<label id="new_task">
-				<p id="name_task">Tarefa 1</p>
-				<p id="hour_task">8:00</p>
-				<p id="date_task">28/01/2023</p>
-			</label>
-
-			<section>
-			<button onclick="excluir()" id="excluir">X</button>
-			</section>				
+								
 	</section>
 
 </main>
