@@ -60,13 +60,18 @@ li{
 	grid-template-rows: auto auto auto;
 	background: #f2f2f2;
 	width: 100%;
-	border-bottom: 1px solid gray;
 }
 
 .new_task{
-	margin-left: 5%;
+	
 	align-self: left;
 	grid-auto-flow: column;
+	border-bottom: 1px solid gray;
+
+}
+
+#name_task, #hour_task, #date_task{
+	margin-left: 5%;
 }
 
 #check{
