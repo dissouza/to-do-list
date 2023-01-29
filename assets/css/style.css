@@ -77,11 +77,10 @@ li{
 #check{
 	display: none;
 }
-#check:active{
+
+.new_task > input[type='checkbox']:checked + #name_task + #hour_task + #date_task{
 	text-decoration: line-through;
 }
-
-
 
 #excluir{
 	display: grid;
@@ -95,6 +94,6 @@ li{
 	width: 100%;	
 }
 
-#excluir:hover{background:#ff4d4d}
-#excluir:active{background:#ff4d4d}
+#excluir:hover{background:#ff4d4d};
+#excluir:active{background:#ff4d4d};
 
