@@ -16,7 +16,7 @@ function adicionar(){
 
 	let excluir_button = document.createElement('section')
 	excluir_button.classList.add('excluir_button');
-	excluir_button.innerHTML = `<button onclick='excluir()' id='excluir'>X</button>`;
+	excluir_button.innerHTML = `<input type='button' onclick='excluir()' id='excluir' value='X'></input>`;
 
 	if (tarefa, hora, data == false){
 		alert("Preencha os dados da tarefa");
