@@ -69,7 +69,10 @@ li{
 	grid-auto-flow: column;
 }
 
-label:active{
+#check{
+	display: none;
+}
+#check:active{
 	text-decoration: line-through;
 }
 
