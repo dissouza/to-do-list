@@ -12,23 +12,22 @@
 
 <body>
 <main>
-	<section id="tarefa">
+	<section id="tarefa"><!-- Bloco onde será inserido os dados da tarefa -->
 		<h1>Lista de Tarefas</h1>
-			<ul>
-				<li id="first"><!-- Primeira linha-->
-					<input type="text" class="task" id="task" placeholder="Digite um nome para esta tarefa">
-				</li>
+				<ul>
+					<li id="first"><!--Nome da Tarefa / Primeira linha -->
+						<input type="text" class="task" id="task" placeholder="Digite um nome para esta tarefa">
+					</li>
 
-				<li id="second"><!-- Segunda linha-->				
-				<input type="time" id="hora" name="hora"></input>				
-				<input type="date" id="data" name="data"></input>
-				<button onclick="adicionar()" id="adicionar">ADICIONAR</button>
-				</li>		
-			</ul>
+					<li id="second"><!-- Segunda linha-->				
+					<input type="time" id="hora" name="hora"></input>				
+					<input type="date" id="data" name="data"></input>
+					<button onclick="adicionar();" id="adicionar">ADICIONAR</button>
+					</li>		
+				</ul>			
 	</section>
 
-	<section id="list_tasks">
-								
+	<section id="list_tasks"><!-- Onde será adicionado novas tarefas -->								
 	</section>
 
 </main>
