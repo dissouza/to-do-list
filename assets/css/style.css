@@ -78,9 +78,13 @@ li{
 	display: none;
 }
 
-.new_task > input[type='checkbox']:checked + #name_task + #hour_task + #date_task{
+.new_task > input[type='checkbox']:checked > #name_task + #hour_task + #date_task{
 	text-decoration: line-through;
+
 }
+
+
+
 
 #excluir{
 	display: grid;
