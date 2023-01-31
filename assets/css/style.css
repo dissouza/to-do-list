@@ -81,7 +81,7 @@ li{
 .new_task > input[type='checkbox']:checked > #name_task + #hour_task + #date_task{
 	text-decoration: line-through;
 
-}
+} /* Ao clicar na label, marcar como traçado todos os tag p */
 
 
 
